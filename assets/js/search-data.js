@@ -52,7 +52,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-colloquium",
-          title: "colloquium",
+          title: "Colloquium",
           description: "건국대학교 수리과학연구소 콜로퀴움",
           section: "Navigation",
           handler: () => {
