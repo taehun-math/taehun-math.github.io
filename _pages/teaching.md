@@ -51,14 +51,14 @@ nav_order: 4
     <div class="tl-sem-label">Spring 2026 <span class="tl-inst">Konkuk University</span> <span class="tl-now-tag">current</span></div>
     <div class="tl-cards">
       <div class="tl-card">
-        <span class="tl-badge b-grad">Graduate</span>
-        <div class="tl-cname">Real Analysis 1</div>
-        <div class="tl-cmeta">Royden &amp; Fitzpatrick, 4th ed.</div>
-      </div>
-      <div class="tl-card">
         <span class="tl-badge b-ugrad">Undergraduate</span>
         <div class="tl-cname">Introduction to Analysis 1</div>
         <div class="tl-cmeta">Abbott, 2nd ed.</div>
+      </div>
+      <div class="tl-card">
+        <span class="tl-badge b-grad">Graduate</span>
+        <div class="tl-cname">Real Analysis 1</div>
+        <div class="tl-cmeta">Royden &amp; Fitzpatrick, 4th ed.</div>
       </div>
     </div>
   </div>
@@ -68,12 +68,12 @@ nav_order: 4
     <div class="tl-sem-label">Fall 2025 <span class="tl-inst">Konkuk University</span></div>
     <div class="tl-cards">
       <div class="tl-card">
-        <span class="tl-badge b-grad">Graduate</span>
-        <div class="tl-cname">Topics in Analysis 2</div>
-      </div>
-      <div class="tl-card">
         <span class="tl-badge b-ugrad">Undergraduate</span>
         <div class="tl-cname">Introduction to Analysis 2</div>
+      </div>
+      <div class="tl-card">
+        <span class="tl-badge b-grad">Graduate</span>
+        <div class="tl-cname">Topics in Analysis 2</div>
       </div>
     </div>
   </div>
@@ -83,12 +83,12 @@ nav_order: 4
     <div class="tl-sem-label">Spring 2025 <span class="tl-inst">Konkuk University</span></div>
     <div class="tl-cards">
       <div class="tl-card">
-        <span class="tl-badge b-calc">Calculus</span>
-        <div class="tl-cname">College Mathematics 1</div>
-      </div>
-      <div class="tl-card">
         <span class="tl-badge b-ugrad">Undergraduate</span>
         <div class="tl-cname">Introduction to Analysis 1</div>
+      </div>
+      <div class="tl-card">
+        <span class="tl-badge b-calc">Calculus</span>
+        <div class="tl-cname">College Mathematics 1</div>
       </div>
     </div>
   </div>
