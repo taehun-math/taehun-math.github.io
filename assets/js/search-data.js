@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-talks",
-          title: "talks",
-          description: "Invited talks and conference presentations",
+          title: "Talks",
+          description: "Seminar talks, series lectures, and conference organization",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
