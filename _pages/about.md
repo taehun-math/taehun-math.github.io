@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: about
 permalink: /
 subtitle: >
   Department of Mathematics, <a href="https://www.konkuk.ac.kr/sites/math">Konkuk University</a>
