@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/talks/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Courses taught at Konkuk University and Seoul National University",
+          title: "teaching",
+          description: "Courses at Konkuk University and Seoul National University",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
