@@ -6,6 +6,7 @@ description: 건국대학교 수리과학연구소 콜로퀴움
 nav: true
 nav_order: 6
 ---
+{::nomarkdown}
 
 <style>
   .collo-tabs { display: flex; gap: 0; border-bottom: 1px solid #ddd; margin-bottom: 1.5rem; }
@@ -220,3 +221,5 @@ function showSemester(id, btn) {
   btn.classList.add('active');
 }
 </script>
+
+{:/nomarkdown}
