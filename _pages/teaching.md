@@ -1,15 +1,16 @@
 ---
 layout: page
-permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+permalink: /teaching/
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Spring 2026
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Real Analysis 1 (대학원)
+- Textbook: Royden & Fitzpatrick, *Real Analysis*, 4th ed.
+- [Lecture Notes (PDF)](/assets/pdf/real_analysis_notes.pdf)
 
-{% include courses.liquid %}
+### Introduction to Analysis 1 (학부)
+- Textbook: Abbott, *Understanding Analysis*, 2nd ed.
