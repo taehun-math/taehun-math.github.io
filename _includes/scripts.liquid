@@ -376,3 +376,16 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+<!-- Keyboard Navigation -->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+  var links = Array.from(document.querySelectorAll('.navbar-nav .nav-link'));
+  var current = links.findIndex(function(a) { return a.classList.contains('active'); });
+  if (current === -1) return;
+  var next = e.key === 'ArrowRight' ? current + 1 : current - 1;
+  if (next >= 0 && next < links.length) links[next].click();
+});
+</script>
