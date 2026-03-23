@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Proc. AMS': 'geom',
     'Calc. Var. PDE': 'geom',
     'Adv. Nonlinear Anal.': 'geom',
-    'IMRN': 'pde',
+    'IMRN': 'geom',
     'JDE': 'pde',
     'Nonlinear Anal.': 'pde',
     'Phys. Rev. E': 'net',
