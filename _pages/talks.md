@@ -104,10 +104,30 @@ nav_order: 3
 
 <div class="tk-tl">
 
-  <!-- 2025 -->
+  <!-- 2026 -->
   <div class="tk-year">
     <div class="tk-dot now"></div>
-    <div class="tk-year-label" onclick="toggleYear(this)">2025 <span class="tk-count">(12)</span> <span class="tk-now-tag">recent</span> <span class="tk-toggle open">&#9654;</span></div>
+    <div class="tk-year-label" onclick="toggleYear(this)">2026 <span class="tk-count">(3)</span> <span class="tk-now-tag">recent</span> <span class="tk-toggle open">&#9654;</span></div>
+    <div class="tk-list">
+      <div class="tk-item">
+        <span class="tk-badge b-colloq">colloquium</span>
+        <div><div class="tk-venue">Colloquium, UNIST</div><div class="tk-loc">Ulsan, Korea</div></div>
+      </div>
+      <div class="tk-item">
+        <span class="tk-badge b-colloq">colloquium</span>
+        <div><div class="tk-venue">Colloquium, Sogang University</div><div class="tk-loc">Seoul, Korea</div></div>
+      </div>
+      <div class="tk-item">
+        <span class="tk-badge b-seminar">seminar</span>
+        <div><div class="tk-venue">Hanyang University</div><div class="tk-loc">Seoul, Korea</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2025 -->
+  <div class="tk-year">
+    <div class="tk-dot"></div>
+    <div class="tk-year-label" onclick="toggleYear(this)">2025 <span class="tk-count">(12)</span> <span class="tk-toggle open">&#9654;</span></div>
     <div class="tk-list">
       <div class="tk-item">
         <span class="tk-badge b-seminar">seminar</span>
@@ -122,7 +142,7 @@ nav_order: 3
         <div><div class="tk-venue"><a href="https://sites.google.com/view/rims-viscosity2025/">Viscosity Solutions of Differential Equations and Related Topics</a></div><div class="tk-loc">RIMS, Kyoto University, Japan</div></div>
       </div>
       <div class="tk-item">
-        <span class="tk-badge b-seminar">seminar</span>
+        <span class="tk-badge b-colloq">colloquium</span>
         <div><div class="tk-venue">Sookmyung Women's University</div><div class="tk-loc">Seoul, Korea</div></div>
       </div>
       <div class="tk-item">
@@ -163,8 +183,8 @@ nav_order: 3
   <!-- 2024 -->
   <div class="tk-year">
     <div class="tk-dot"></div>
-    <div class="tk-year-label" onclick="toggleYear(this)">2024 <span class="tk-count">(5)</span> <span class="tk-toggle open">&#9654;</span></div>
-    <div class="tk-list">
+    <div class="tk-year-label" onclick="toggleYear(this)">2024 <span class="tk-count">(6)</span> <span class="tk-toggle">&#9654;</span></div>
+    <div class="tk-list collapsed">
       <div class="tk-item">
         <span class="tk-badge b-seminar">seminar</span>
         <div><div class="tk-venue">CM2LA Seminar at POSTECH</div><div class="tk-loc">Pohang, Korea</div></div>
@@ -184,6 +204,10 @@ nav_order: 3
       <div class="tk-item">
         <span class="tk-badge b-workshop">workshop</span>
         <div><div class="tk-venue">East Asia Workshop on Nonlinear Evolution Equations</div><div class="tk-loc">Tokyo, Japan</div></div>
+      </div>
+      <div class="tk-item">
+        <span class="tk-badge b-workshop">workshop</span>
+        <div><div class="tk-venue">Winter Workshop on Elliptic and Parabolic Problems and Related Topics</div><div class="tk-loc">Jeongseon, Korea</div></div>
       </div>
     </div>
   </div>
@@ -235,7 +259,7 @@ nav_order: 3
   <!-- 2022 -->
   <div class="tk-year">
     <div class="tk-dot"></div>
-    <div class="tk-year-label" onclick="toggleYear(this)">2022 <span class="tk-count">(7)</span> <span class="tk-toggle">&#9654;</span></div>
+    <div class="tk-year-label" onclick="toggleYear(this)">2022 <span class="tk-count">(8)</span> <span class="tk-toggle">&#9654;</span></div>
     <div class="tk-list collapsed">
       <div class="tk-item">
         <span class="tk-badge b-seminar">seminar</span>
@@ -256,6 +280,10 @@ nav_order: 3
       <div class="tk-item">
         <span class="tk-badge b-seminar">seminar</span>
         <div><div class="tk-venue">KIAS pseudo-New Member Seminar</div><div class="tk-loc">KIAS, Seoul, Korea</div></div>
+      </div>
+      <div class="tk-item">
+        <span class="tk-badge b-seminar">seminar</span>
+        <div><div class="tk-venue">KNU Seminar</div><div class="tk-loc">Daegu, Korea</div></div>
       </div>
       <div class="tk-item">
         <span class="tk-badge b-workshop">workshop</span>
