@@ -22,12 +22,10 @@ news: true
 latest_posts: false
 ---
 
-I am an Assistant Professor in the [Department of Mathematics](https://www.konkuk.ac.kr/sites/math) at Konkuk University.
+I am an Assistant Professor in the [Department of Mathematics](https://www.konkuk.ac.kr/sites/math) at Konkuk University, working on geometric analysis and partial differential equations. I am particularly interested in geometric flows with obstacles, convex geometry, free boundary problems, and nonlocal equations.
 
-My research interests lie in **Geometric Analysis**, **Free Boundary Problems**, **Convex Geometry**, **Partial Differential Equations**, and **Nonlocal Equations**.
+Before joining Konkuk, I spent about five years at [KIAS](https://www.kias.re.kr/) (Korea Institute for Advanced Study) — first as a Research Fellow (2020–2023), then as a Project Research Fellow supported by the Sejong Science Fellowship (2023–2025), working with [Kyeongsu Choi](https://sites.google.com/view/choiks). I received my Ph.D. from Seoul National University in 2020 under the supervision of [Ki-Ahm Lee](https://www.math.snu.ac.kr/~kiahm/), where my thesis focused on curvature flows with obstacles.
 
-Before joining Konkuk University, I was a Project Research Fellow at [KIAS](https://www.kias.re.kr/) (Korea Institute for Advanced Study), supported by the Sejong Science Fellowship, working with [Kyeongsu Choi](https://sites.google.com/view/choiks).
-I received my Ph.D. from Seoul National University in 2020 under the supervision of [Ki-Ahm Lee](https://www.math.snu.ac.kr/~kiahm/).
 
 ### Education
 
