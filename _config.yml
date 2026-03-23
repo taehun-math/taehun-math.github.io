@@ -216,7 +216,7 @@ plugins:
   - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
@@ -224,7 +224,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  # - jekyll/scholar
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-socials
   - jekyll-tabs
