@@ -38,3 +38,6 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+html {
+  font-size: 110%; /* 기본 크기의 110%로 확대. 120%, 130% 등으로 조절 가능 */
+}
