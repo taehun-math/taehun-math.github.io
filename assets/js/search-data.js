@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-best-teacher-award-수상-건국대학교-2025년-베스트티처상을-받았습니다-신문기사-링크-유튜브-영상",
-          title: 'Best Teacher Award 수상! 건국대학교 2025년 베스트티처상을 받았습니다. 신문기사 링크 · 유튜브 영상...',
+            },},{id: "news-best-teacher-award-건국대학교-2025년-베스트티처상을-받았습니다-신문기사-링크-유튜브-영상",
+          title: 'Best Teacher Award 건국대학교 2025년 베스트티처상을 받았습니다.  신문기사 링크 · 유튜브 영상',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
