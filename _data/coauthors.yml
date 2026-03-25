@@ -1,34 +1,37 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"kim":
+  - firstname: ["Takwon", "T."]
+    url: https://sites.google.com/view/takwonkim
+  - firstname: ["Minhyun", "M."]
+    url: https://sites.google.com/view/minhyunkim/home
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"lee":
+  - firstname: ["Ki-Ahm", "K.-A.", "K. A.", "Ki-ahm"]
+    url: https://www.math.snu.ac.kr/~kiahm/
+  - firstname: ["Sanghoon", "S."]
+    url: https://sites.google.com/view/sanghoon-lees-homepagege/%ED%99%88
+  - firstname: ["Kang-Ju", "K.-J.", "K. J."]
+    url: https://scholar.google.com/citations?user=kangjulee
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"choi":
+  - firstname: ["Kyeongsu", "K."]
+    url: https://sites.google.com/view/choiks
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"huang":
+  - firstname: ["Jiuzhou", "J."]
+    url: https://scholar.google.com/citations?user=jiuzhouhuang
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"kang":
+  - firstname: ["Hyunsuk", "H."]
+    url: https://math.gist.ac.kr/prog/gsMember/math/P/Faculty/sub03_01/list.do
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"kook":
+  - firstname: ["Woong", "W."]
+    url: https://www.math.snu.ac.kr/~woongkook/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"park":
+  - firstname: ["Jinwan", "J."]
+    url: https://sites.google.com/view/jinwanpark
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"gonzalez":
+  - firstname: ["Maria del Mar", "M. M.", "M. d. M."]
+    url: https://matematicas.uam.es/~maria.gonzalez/
