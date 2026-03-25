@@ -118,7 +118,7 @@ nav_order: 3
         <div><div class="tk-venue">Workshop on Nonlinear Partial Differential Equations, Harmonic Analysis, and Free Boundary Problems, KTH</div><div class="tk-loc">Stockholm, Sweden</div></div>
       </div>
       <div class="tk-item">
-        <span class="tk-badge b-conference">conference</span>
+        <span class="tk-badge b-conf">conference</span>
         <div><div class="tk-venue">AIMS</div><div class="tk-loc">Athens, Greece</div></div>
       </div>
       <div class="tk-item">
