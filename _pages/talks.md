@@ -107,8 +107,20 @@ nav_order: 3
   <!-- 2026 -->
   <div class="tk-year">
     <div class="tk-dot now"></div>
-    <div class="tk-year-label" onclick="toggleYear(this)">2026 <span class="tk-count">(3)</span> <span class="tk-now-tag">recent</span> <span class="tk-toggle open">&#9654;</span></div>
+    <div class="tk-year-label" onclick="toggleYear(this)">2026 <span class="tk-count">(6)</span> <span class="tk-now-tag">recent</span> <span class="tk-toggle open">&#9654;</span></div>
     <div class="tk-list">
+      <div class="tk-item">
+        <span class="tk-badge b-workshop">workshop</span>
+        <div><div class="tk-venue">Korea-China 2026 PDE Workshop, SNU</div><div class="tk-loc">Seoul, Korea</div></div>
+      </div>
+      <div class="tk-item">
+        <span class="tk-badge b-workshop">workshop</span>
+        <div><div class="tk-venue">Workshop on Nonlinear Partial Differential Equations, Harmonic Analysis, and Free Boundary Problems, KTH</div><div class="tk-loc">Stockholm, Sweden</div></div>
+      </div>
+      <div class="tk-item">
+        <span class="tk-badge b-conference">conference</span>
+        <div><div class="tk-venue">AIMS</div><div class="tk-loc">Athens, Greece</div></div>
+      </div>
       <div class="tk-item">
         <span class="tk-badge b-colloq">colloquium</span>
         <div><div class="tk-venue">Colloquium, UNIST</div><div class="tk-loc">Ulsan, Korea</div></div>
