@@ -119,7 +119,7 @@ nav_order: 3
       </div>
       <div class="tk-item">
         <span class="tk-badge b-conf">conference</span>
-        <div><div class="tk-venue">AIMS</div><div class="tk-loc">Athens, Greece</div></div>
+        <div><div class="tk-venue">The 15th AIMS Conference</div><div class="tk-loc">Athens, Greece</div></div>
       </div>
       <div class="tk-item">
         <span class="tk-badge b-colloq">colloquium</span>
