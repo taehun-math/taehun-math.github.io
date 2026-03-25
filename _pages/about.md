@@ -29,7 +29,7 @@ I am an Assistant Professor in the [Department of Mathematics](https://www.konku
 Before joining Konkuk, I was at [KIAS](https://www.kias.re.kr/) (Korea Institute for Advanced Study) — first as a Research Fellow (2020–2023), then as a Project Research Fellow supported by the Sejong Science Fellowship (2023–2025), working with [Kyeongsu Choi](https://sites.google.com/view/choiks). I received my Ph.D. from Seoul National University in 2020 under the supervision of [Ki-Ahm Lee](https://www.math.snu.ac.kr/~kiahm/), where my thesis focused on curvature flows with obstacles.
 
 
-### Awards & Funding
+### awards & funding
 
 - **Sejong Science Fellowship**, March 2023 – February 2028
 - **Best Teacher Award**, Konkuk University, November 2025
