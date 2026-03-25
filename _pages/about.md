@@ -18,8 +18,10 @@ profile:
 selected_papers: true
 social: true
 
-news: true
+announcements:
+  enabled: true
 latest_posts: false
+
 ---
 
 I am an Assistant Professor in the [Department of Mathematics](https://www.konkuk.ac.kr/sites/math) at Konkuk University, working on geometric analysis and partial differential equations. I am particularly interested in geometric flows with obstacles, convex geometry, free boundary problems, and nonlocal equations.
