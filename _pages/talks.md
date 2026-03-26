@@ -119,7 +119,7 @@ nav_order: 3
       </div>
       <div class="tk-item">
         <span class="tk-badge b-conf">conference</span>
-        <div><div class="tk-venue"><a href="https://aimsconference.org/conferences/2026/index.html">The 15th AIMS Conference on Dynamical Systems, Differential Equations and Applications</a></div>
+        <div><div class="tk-venue"><a href="https://aimsconference.org/conferences/2026/index.html">The 15th AIMS Conference</a></div>
 <div class="tk-loc">Athens, Greece</div></div>
       </div>
       <div class="tk-item">
