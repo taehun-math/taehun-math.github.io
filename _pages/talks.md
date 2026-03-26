@@ -119,7 +119,8 @@ nav_order: 3
       </div>
       <div class="tk-item">
         <span class="tk-badge b-conf">conference</span>
-        <div><div class="tk-venue">The 15th AIMS Conference</div><div class="tk-loc">Athens, Greece</div></div>
+        <div><div class="tk-venue"><a href="https://aimsconference.org/conferences/2026/index.html">The 15th AIMS Conference on Dynamical Systems, Differential Equations and Applications</a></div>
+<div class="tk-loc">Athens, Greece</div></div>
       </div>
       <div class="tk-item">
         <span class="tk-badge b-colloq">colloquium</span>
@@ -127,7 +128,7 @@ nav_order: 3
       </div>
       <div class="tk-item">
         <span class="tk-badge b-colloq">colloquium</span>
-        <div><div class="tk-venue">Colloquium, Sogang University</div><div class="tk-loc">Seoul, Korea</div></div>
+        <div><div class="tk-venue"><a href="https://math.sogang.ac.kr/front/cmsboardview.do?currentPage=1&searchField=ALL&searchValue=&searchLowItem=ALL&bbsConfigFK=1948&siteId=math&pkid=933773">Colloquium, Sogang University</a></div><div class="tk-loc">Seoul, Korea</div></div>
       </div>
       <div class="tk-item">
         <span class="tk-badge b-seminar">seminar</span>
