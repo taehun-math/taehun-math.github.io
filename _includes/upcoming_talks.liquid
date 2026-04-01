@@ -80,7 +80,7 @@
     <span class="up-badge {{ bc }}">{{ bl }}</span>
     <div>
       <div class="up-venue">{% if item.url %}<a href="{{ item.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}</div>
-      <div class="up-loc">{{ item.location }} · {{ item.date | date: "%b %Y" }}</div>
+      <div class="up-loc">{{ item.location }} · {% if item.show_date %}{{ item.date | date: "%b %d, %Y" }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</div>
     </div>
   </div>
 
