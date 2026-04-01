@@ -1,0 +1,10 @@
+<div class="tk-cards">
+{% for lecture in site.data.series_lectures %}
+  <div class="tk-card">
+    <span class="tk-card-badge b-series">series lecture</span>
+    <div class="tk-card-title">{% if lecture.url %}<a href="{{ lecture.url }}">{{ lecture.title }}</a>{% else %}{{ lecture.title }}{% endif %}</div>
+    <div class="tk-card-sub">{{ lecture.subtitle }}</div>
+    <div class="tk-card-meta">{{ lecture.year }} &middot; {{ lecture.location }}</div>
+  </div>
+{% endfor %}
+</div>

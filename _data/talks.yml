@@ -1,0 +1,308 @@
+# Seminar talks data — sorted by date (newest first in display)
+# type: seminar | conference | workshop | school | colloquium
+
+# 2026
+- venue: "Korea-China 2026 PDE Workshop, SNU"
+  type: workshop
+  location: "Seoul, Korea"
+  date: 2026-11-15
+
+- venue: "Workshop on Nonlinear Partial Differential Equations, Harmonic Analysis, and Free Boundary Problems, KTH"
+  type: workshop
+  location: "Stockholm, Sweden"
+  date: 2026-09-01
+
+- venue: "The 15th AIMS Conference"
+  type: conference
+  location: "Athens, Greece"
+  date: 2026-07-20
+  url: "https://aimsconference.org/conferences/2026/index.html"
+
+- venue: "Colloquium, UNIST"
+  type: colloquium
+  location: "Ulsan, Korea"
+  date: 2026-04-01
+
+- venue: "Colloquium, Sogang University"
+  type: colloquium
+  location: "Seoul, Korea"
+  date: 2026-03-25
+  url: "https://math.sogang.ac.kr/front/cmsboardview.do?currentPage=1&searchField=ALL&searchValue=&searchLowItem=ALL&bbsConfigFK=1948&siteId=math&pkid=933773"
+
+- venue: "Hanyang University"
+  type: seminar
+  location: "Seoul, Korea"
+  date: 2026-02-15
+
+# 2025
+- venue: "Seminar on Regularity in Elliptic and Parabolic Problems (REPP)"
+  type: seminar
+  location: "Online"
+  date: 2025-12-01
+  url: "https://sites.google.com/view/repp-seminar"
+
+- venue: "2025 KSIAM Fall Meetings"
+  type: conference
+  location: "Gyeongju, Korea"
+  date: 2025-11-15
+  url: "https://ksiam.org/Conference/ConferenceView.asp?AC=0&CODE=CC20250901&CpPage=#CONF"
+
+- venue: "Viscosity Solutions of Differential Equations and Related Topics"
+  type: workshop
+  location: "RIMS, Kyoto University, Japan"
+  date: 2025-11-01
+  url: "https://sites.google.com/view/rims-viscosity2025/"
+
+- venue: "Sookmyung Women's University"
+  type: colloquium
+  location: "Seoul, Korea"
+  date: 2025-10-15
+
+- venue: "NCTS Differential Geometry Seminar"
+  type: seminar
+  location: "Online, Taiwan"
+  date: 2025-09-15
+  url: "https://ncts.ntu.edu.tw/events_1_detail.php?nid=3000"
+
+- venue: "2025 KMS Annual Meeting: Special Session-11"
+  type: conference
+  location: "ST Center, Seoul, Korea"
+  date: 2025-10-01
+  url: "https://www.kms.or.kr/conference/meeting/?period=90"
+
+- venue: "2025 China-Korea Workshop on Partial Differential Equations"
+  type: workshop
+  location: "Anhui, China"
+  date: 2025-08-01
+  url: "https://math.ustc.edu.cn/2025/0605/c18653a687016/page.htm"
+
+- venue: "2025 Summer School on Elliptic & Parabolic PDEs"
+  type: school
+  location: "Jeju, Korea"
+  date: 2025-07-15
+  url: "https://sites.google.com/view/2025-pde-summer/"
+
+- venue: "KIAS APP Seminar"
+  type: seminar
+  location: "Seoul, Korea"
+  date: 2025-06-15
+  url: "http://newton.kias.re.kr/~appseminar/app2025.html"
+
+- venue: "Recent Advances in Nonlinear PDEs I"
+  type: conference
+  location: "KSIAM, Korea"
+  date: 2025-05-01
+  url: "https://ksiam.org/Conference/ConferenceView.asp?AC=0&CODE=CC20250301&CpPage=259#CONF"
+
+- venue: "Diving into PDEs without Screens"
+  type: workshop
+  location: "Hanyang University, Korea"
+  date: 2025-03-15
+  url: "https://sites.google.com/hanyang.ac.kr/pdeswithoutscreens/home"
+
+- venue: "The 11th Korea PDE Winter School at UNIST"
+  type: school
+  location: "Ulsan, Korea"
+  date: 2025-01-15
+  url: "https://sites.google.com/view/pdeschool-2025/"
+
+# 2024
+- venue: "CM2LA Seminar at POSTECH"
+  type: seminar
+  location: "Pohang, Korea"
+  date: 2024-12-01
+
+- venue: "2024 KMS Annual Meeting: Special Session-08"
+  type: conference
+  location: "Suwon, Korea"
+  date: 2024-10-15
+
+- venue: "Summer School on Elliptic & Parabolic PDEs"
+  type: school
+  location: "Seoul, Korea"
+  date: 2024-07-15
+  url: "https://sites.google.com/view/summer-school-pde-2024/main"
+
+- venue: "PNU Geometry and Topology Seminar"
+  type: seminar
+  location: "Pusan, Korea"
+  date: 2024-06-01
+
+- venue: "East Asia Workshop on Nonlinear Evolution Equations"
+  type: workshop
+  location: "Tokyo, Japan"
+  date: 2024-03-15
+
+- venue: "Winter Workshop on Elliptic and Parabolic Problems and Related Topics"
+  type: workshop
+  location: "Jeongseon, Korea"
+  date: 2024-01-15
+
+# 2023
+- venue: "PDEA Seminar, Uppsala University"
+  type: seminar
+  location: "Uppsala, Sweden"
+  date: 2023-12-01
+  url: "https://www.math.uu.se/the-department/calendar/event/?eventId=84952"
+
+- venue: "UAM-ICMAT Seminar, Autonomous University of Madrid"
+  type: seminar
+  location: "Madrid, Spain"
+  date: 2023-11-01
+
+- venue: "KMS Special Conference with 2022 Fields Medalists"
+  type: conference
+  location: "Seoul National University, Korea"
+  date: 2023-10-15
+  url: "https://www.kms.or.kr/conference/2023_fall/general/contents.html?period=85&idx=292"
+
+- venue: "Young Geometers Meeting"
+  type: workshop
+  location: "KIAS, Seoul, Korea"
+  date: 2023-09-01
+  url: "http://events.kias.re.kr/h/YoungGeometersM/?pageNo=5233"
+
+- venue: "Analysis and PDE Seminar, Chung-Ang University"
+  type: seminar
+  location: "Seoul, Korea"
+  date: 2023-06-01
+  url: "https://math.cau.ac.kr/notice/news.php?keyfield=&keyword=&page=1&board_table=seminar&work=view&No=79"
+
+- venue: "2023 KMS Annual Meeting: SS-16 & SS-06"
+  type: conference
+  location: "Daejeon, Korea"
+  date: 2023-04-15
+  url: "https://www.kms.or.kr/conference/2023_spring/index.html?period=84"
+
+- venue: "Seminar, Hanyang University"
+  type: seminar
+  location: "Seoul, Korea"
+  date: 2023-03-15
+  url: "https://sites.google.com/view/minhyunkim/seminar"
+
+- venue: "18th KIAS Geometry Winter School"
+  type: school
+  location: "Jeongseon, Korea"
+  date: 2023-01-15
+  url: "http://events.kias.re.kr/h/WSG23/"
+
+- venue: "Workshop on Geometric Analysis and Related Topics IV"
+  type: workshop
+  location: "Jeongseon, Korea"
+  date: 2023-01-10
+  url: "https://sites.google.com/view/geometrybrl/workshops"
+
+# 2022
+- venue: "Analysis and PDE Seminar (CUHK, HKU, UNIST)"
+  type: seminar
+  location: "Online"
+  date: 2022-12-01
+  url: "https://hkumath.hku.hk/~imr/event/CUHK_HKU_UNIST_Analysis_and_PDE/index.php"
+
+- venue: "Rookies Workshop"
+  type: workshop
+  location: "Yangpyeong, Korea"
+  date: 2022-11-01
+  url: "http://qsms.math.snu.ac.kr/board_axne29/2388"
+
+- venue: "Asia-Pacific Analysis and PDE Seminar"
+  type: seminar
+  location: "Online"
+  date: 2022-09-01
+  url: "https://www.maths.usyd.edu.au/u/Asia-Pacific-APDESeminar/Talks2022.html"
+
+- venue: "HY-PDE Workshop 2022"
+  type: workshop
+  location: "Hanyang University, Seoul, Korea"
+  date: 2022-07-01
+  url: "http://jinyeongpark.com/?cat=5"
+
+- venue: "KIAS pseudo-New Member Seminar"
+  type: seminar
+  location: "KIAS, Seoul, Korea"
+  date: 2022-06-01
+
+- venue: "KNU Seminar"
+  type: seminar
+  location: "Daegu, Korea"
+  date: 2022-05-01
+
+- venue: "CAU Nonlinear PDE Center Workshop"
+  type: workshop
+  location: "Online"
+  date: 2022-03-01
+  url: "https://sites.google.com/view/caupdeworkshop2022/"
+
+- venue: "PDE Workshop"
+  type: workshop
+  location: "Busan, Korea"
+  date: 2022-01-15
+  url: "https://math.yonsei.ac.kr/math/math/event_calendar.do?mode=view&articleNo=134262"
+
+# 2020–2021
+- venue: "2021 KMS Annual Meeting: Special Session-08"
+  type: conference
+  location: "Online"
+  date: 2021-10-15
+  year_label: "2020 – 2021"
+  url: "https://www.kms.or.kr/meetings/fall2021/"
+
+- venue: "HY-PDE Workshop 2021"
+  type: workshop
+  location: "Online"
+  date: 2021-07-01
+  year_label: "2020 – 2021"
+  url: "https://jinyeongpark.com/?p=224097"
+
+- venue: "16th KIAS Workshop on Geometry"
+  type: workshop
+  location: "Online"
+  date: 2021-01-15
+  year_label: "2020 – 2021"
+  url: "http://events.kias.re.kr/h/WSG21/"
+
+- venue: "2020 Seoul-Tokyo Conference: Partial Differential Equations"
+  type: conference
+  location: "Online"
+  date: 2020-12-01
+  year_label: "2020 – 2021"
+  url: "http://events.kias.re.kr/h/SeoulTokyo20/?pageNo=4301"
+
+- venue: "2020 Partial Differential Equation Camp"
+  type: workshop
+  location: "Jeju, Korea"
+  date: 2020-07-15
+  year_label: "2020 – 2021"
+
+- venue: "2020 Workshop on Elliptic and Parabolic PDEs"
+  type: workshop
+  location: "Yangyang, Korea"
+  date: 2020-01-15
+  year_label: "2020 – 2021"
+
+# 2014–2017
+- venue: "Seminar, Autonomous University of Madrid"
+  type: seminar
+  location: "Madrid, Spain (2017)"
+  date: 2017-06-01
+  year_label: "2014 – 2017"
+
+- venue: "2016 Workshop on Nonlinear Elliptic and Parabolic Equations"
+  type: workshop
+  location: "Seoul National University, Korea"
+  date: 2016-12-01
+  year_label: "2014 – 2017"
+  url: "http://www.math.snu.ac.kr/~byun/2016WORKSHOP/index.htm"
+
+- venue: "2015 Seminari D'EDP'S I Aplicacions, Polytechnic University of Catalonia"
+  type: seminar
+  location: "Barcelona, Spain"
+  date: 2015-06-01
+  year_label: "2014 – 2017"
+
+- venue: "The 10th HU and SNU Symposium on Mathematics"
+  type: conference
+  location: "Hokkaido University, Japan (2014)"
+  date: 2014-08-01
+  year_label: "2014 – 2017"
+  url: "https://www.math.sci.hokudai.ac.jp/sympo/snu/2014/index_en.html"

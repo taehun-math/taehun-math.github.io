@@ -48,6 +48,14 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Upcoming talks -->
+    {% if page.upcoming_talks %}
+      <h2>
+        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">upcoming talks</a>
+      </h2>
+      {% include upcoming_talks.liquid limit=page.upcoming_talks.limit %}
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>

@@ -18,6 +18,9 @@ profile:
 selected_papers: true
 social: true
 
+upcoming_talks:
+  limit: 5
+
 announcements:
   enabled: true
 latest_posts: false

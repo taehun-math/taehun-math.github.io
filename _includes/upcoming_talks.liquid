@@ -1,0 +1,90 @@
+{% assign today_s = "now" | date: "%s" | plus: 0 %}
+{% assign upcoming = "" | split: "" %}
+
+{% for talk in site.data.talks %}
+  {% assign talk_s = talk.date | date: "%s" | plus: 0 %}
+  {% if talk_s >= today_s %}
+    {% assign upcoming = upcoming | push: talk %}
+  {% endif %}
+{% endfor %}
+
+{% for lecture in site.data.series_lectures %}
+  {% assign lec_s = lecture.date | date: "%s" | plus: 0 %}
+  {% if lec_s >= today_s %}
+    {% assign item = lecture | default: lecture %}
+    {% assign upcoming = upcoming | push: lecture %}
+  {% endif %}
+{% endfor %}
+
+{% for org in site.data.organization %}
+  {% assign org_s = org.date | date: "%s" | plus: 0 %}
+  {% if org_s >= today_s %}
+    {% assign upcoming = upcoming | push: org %}
+  {% endif %}
+{% endfor %}
+
+{% assign upcoming = upcoming | sort: "date" %}
+
+{% if include.limit %}
+  {% assign display_limit = include.limit %}
+{% else %}
+  {% assign display_limit = 5 %}
+{% endif %}
+
+<style>
+  .up-list { display: flex; flex-direction: column; gap: 0; }
+  .up-item { display: flex; gap: 10px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+  .up-item:last-child { border-bottom: none; }
+  .up-badge { flex-shrink: 0; display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 4px; font-weight: 600; min-width: 70px; text-align: center; }
+  .up-venue { font-size: 14px; color: #1a1a1a; line-height: 1.5; }
+  .up-venue a { color: var(--global-theme-color); text-decoration: none; }
+  .up-venue a:hover { text-decoration: underline; }
+  .up-loc { font-size: 12px; color: #999; }
+  .up-date { font-size: 12px; color: #999; }
+  .up-b-seminar { background: #E6F1FB; color: #0C447C; }
+  .up-b-conf { background: #EEEDFE; color: #3C3489; }
+  .up-b-workshop { background: #E1F5EE; color: #085041; }
+  .up-b-school { background: #FAEEDA; color: #633806; }
+  .up-b-colloq { background: #FAECE7; color: #712B13; }
+  .up-b-series { background: #FBEAF0; color: #72243E; }
+  .up-b-org { background: #FAECE7; color: #712B13; }
+  html[data-theme="dark"] .up-venue { color: #e0e0e0; }
+  html[data-theme="dark"] .up-item { border-bottom-color: #333; }
+  html[data-theme="dark"] .up-b-seminar { background: #042C53; color: #B5D4F4; }
+  html[data-theme="dark"] .up-b-conf { background: #26215C; color: #CECBF6; }
+  html[data-theme="dark"] .up-b-workshop { background: #04342C; color: #9FE1CB; }
+  html[data-theme="dark"] .up-b-school { background: #412402; color: #FAC775; }
+  html[data-theme="dark"] .up-b-colloq { background: #4A1B0C; color: #F5C4B3; }
+  html[data-theme="dark"] .up-b-series { background: #4B1528; color: #F4C0D1; }
+  html[data-theme="dark"] .up-b-org { background: #4A1B0C; color: #F5C4B3; }
+</style>
+
+{% if upcoming.size > 0 %}
+<div class="up-list">
+{% assign count = 0 %}
+{% for item in upcoming %}
+  {% if count >= display_limit %}{% break %}{% endif %}
+
+  {% if item.type == "seminar" %}{% assign bc = "up-b-seminar" %}{% assign bl = "seminar" %}
+  {% elsif item.type == "conference" %}{% assign bc = "up-b-conf" %}{% assign bl = "conference" %}
+  {% elsif item.type == "workshop" %}{% assign bc = "up-b-workshop" %}{% assign bl = "workshop" %}
+  {% elsif item.type == "school" %}{% assign bc = "up-b-school" %}{% assign bl = "school" %}
+  {% elsif item.type == "colloquium" %}{% assign bc = "up-b-colloq" %}{% assign bl = "colloquium" %}
+  {% elsif item.subtitle %}{% assign bc = "up-b-series" %}{% assign bl = "series" %}
+  {% elsif item.date_display %}{% assign bc = "up-b-org" %}{% assign bl = "organizer" %}
+  {% endif %}
+
+  {% assign name = item.venue | default: item.title %}
+
+  <div class="up-item">
+    <span class="up-badge {{ bc }}">{{ bl }}</span>
+    <div>
+      <div class="up-venue">{% if item.url %}<a href="{{ item.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}</div>
+      <div class="up-loc">{{ item.location }} · {{ item.date | date: "%b %Y" }}</div>
+    </div>
+  </div>
+
+  {% assign count = count | plus: 1 %}
+{% endfor %}
+</div>
+{% endif %}

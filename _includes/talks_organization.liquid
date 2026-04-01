@@ -1,0 +1,9 @@
+<div class="tk-cards">
+{% for org in site.data.organization %}
+  <div class="tk-card">
+    <span class="tk-card-badge b-org">organizer</span>
+    <div class="tk-card-title">{% if org.url %}<a href="{{ org.url }}">{{ org.title }}</a>{% else %}{{ org.title }}{% endif %}</div>
+    <div class="tk-card-meta">{{ org.date_display }} &middot; {{ org.location }}</div>
+  </div>
+{% endfor %}
+</div>

@@ -1,0 +1,61 @@
+{% assign talks = site.data.talks | sort: "date" | reverse %}
+
+<div class="tk-legend">
+  <div class="tk-legend-item"><div class="tk-legend-dot" style="background:#378ADD;"></div> seminar</div>
+  <div class="tk-legend-item"><div class="tk-legend-dot" style="background:#7F77DD;"></div> conference</div>
+  <div class="tk-legend-item"><div class="tk-legend-dot" style="background:#1D9E75;"></div> workshop</div>
+  <div class="tk-legend-item"><div class="tk-legend-dot" style="background:#EF9F27;"></div> school</div>
+  <div class="tk-legend-item"><div class="tk-legend-dot" style="background:#D85A30;"></div> colloquium</div>
+</div>
+
+<div class="tk-tl">
+{% assign prev_group = "" %}
+{% assign group_index = -1 %}
+
+{% for talk in talks %}
+  {% if talk.year_label %}
+    {% assign group_key = talk.year_label %}
+  {% else %}
+    {% assign group_key = talk.date | date: "%Y" %}
+  {% endif %}
+
+  {% if group_key != prev_group %}
+    {% if prev_group != "" %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% assign group_index = group_index | plus: 1 %}
+    {% assign prev_group = group_key %}
+
+    {% assign group_count = 0 %}
+    {% for t in talks %}
+      {% if t.year_label %}{% assign tk = t.year_label %}{% else %}{% assign tk = t.date | date: "%Y" %}{% endif %}
+      {% if tk == group_key %}{% assign group_count = group_count | plus: 1 %}{% endif %}
+    {% endfor %}
+
+    <div class="tk-year">
+      <div class="tk-dot{% if group_index == 0 %} now{% endif %}"></div>
+      <div class="tk-year-label" onclick="toggleYear(this)">{{ group_key }} <span class="tk-count">({{ group_count }})</span>{% if group_index == 0 %} <span class="tk-now-tag">recent</span>{% endif %} <span class="tk-toggle{% if group_index < 2 %} open{% endif %}">&#9654;</span></div>
+      <div class="tk-list{% if group_index >= 2 %} collapsed{% endif %}">
+  {% endif %}
+
+  {% if talk.type == "seminar" %}{% assign badge_class = "b-seminar" %}{% assign badge_label = "seminar" %}
+  {% elsif talk.type == "conference" %}{% assign badge_class = "b-conf" %}{% assign badge_label = "conference" %}
+  {% elsif talk.type == "workshop" %}{% assign badge_class = "b-workshop" %}{% assign badge_label = "workshop" %}
+  {% elsif talk.type == "school" %}{% assign badge_class = "b-school" %}{% assign badge_label = "school" %}
+  {% elsif talk.type == "colloquium" %}{% assign badge_class = "b-colloq" %}{% assign badge_label = "colloquium" %}
+  {% endif %}
+
+      <div class="tk-item">
+        <span class="tk-badge {{ badge_class }}">{{ badge_label }}</span>
+        <div><div class="tk-venue">{% if talk.url %}<a href="{{ talk.url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</div><div class="tk-loc">{{ talk.location }}</div></div>
+      </div>
+{% endfor %}
+
+{% if prev_group != "" %}
+      </div>
+    </div>
+{% endif %}
+
+</div>
