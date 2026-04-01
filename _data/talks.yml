@@ -21,7 +21,8 @@
 - venue: "Colloquium, UNIST"
   type: colloquium
   location: "Ulsan, Korea"
-  date: 2026-04-01
+  date: 2026-05-14
+  show_date: true
 
 - venue: "Colloquium, Sogang University"
   type: colloquium

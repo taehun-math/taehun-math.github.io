@@ -49,7 +49,7 @@
 
       <div class="tk-item">
         <span class="tk-badge {{ badge_class }}">{{ badge_label }}</span>
-        <div><div class="tk-venue">{% if talk.url %}<a href="{{ talk.url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</div><div class="tk-loc">{{ talk.location }}</div></div>
+        <div><div class="tk-venue">{% if talk.url %}<a href="{{ talk.url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</div><div class="tk-loc">{% if talk.show_date %}{{ talk.date | date: "%b %d" }} · {% endif %}{{ talk.location }}</div></div>
       </div>
 {% endfor %}
 
