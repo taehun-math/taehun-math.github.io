@@ -16,7 +16,8 @@
 - venue: "The 15th AIMS Conference"
   type: conference
   location: "Athens, Greece"
-  date: 2026-07-20
+  date: 2026-07-06
+  show_date: true
   url: "https://aimsconference.org/conferences/2026/index.html"
 
 - venue: "Colloquium, UNIST"
