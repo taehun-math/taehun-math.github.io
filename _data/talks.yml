@@ -8,6 +8,13 @@
   date: 2026-06-23
   show_date: true
 
+- venue: "MATRIX-RIMS Tandem Workshop: Geometric Flows and Related Phenomena"
+  type: workshop
+  location: "MATRIX, Creswick, Australia"
+  date: 2026-09-14
+  show_date: true
+  url: "https://www.matrix-inst.org.au/events/matrix-rims-tandem-workshop-geometric-flows-and-related-phenomena/"
+
 - venue: "Workshop on Nonlinear Partial Differential Equations, Harmonic Analysis, and Free Boundary Problems, KTH"
   type: workshop
   location: "Stockholm, Sweden"
