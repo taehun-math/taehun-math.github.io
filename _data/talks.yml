@@ -11,7 +11,8 @@
 - venue: "Workshop on Nonlinear Partial Differential Equations, Harmonic Analysis, and Free Boundary Problems, KTH"
   type: workshop
   location: "Stockholm, Sweden"
-  date: 2026-09-01
+  date: 2026-08-17
+  show_date: true
 
 - venue: "The 15th AIMS Conference"
   type: conference
