@@ -37,3 +37,7 @@ Before joining Konkuk, I was at [KIAS](https://www.kias.re.kr/) (Korea Institute
 - **Sejong Science Fellowship**, March 2023 – February 2028
 - **Best Teacher Award**, Konkuk University, November 2025
 - **Global Ph.D. Fellowship**, March 2014 – February 2019
+
+### students
+
+- **고범석** (M.S.), Konkuk University
