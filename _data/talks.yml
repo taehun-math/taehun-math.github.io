@@ -5,7 +5,8 @@
 - venue: "Korea-China 2026 PDE Workshop, SNU"
   type: workshop
   location: "Seoul, Korea"
-  date: 2026-06-15
+  date: 2026-06-23
+  show_date: true
 
 - venue: "Workshop on Nonlinear Partial Differential Equations, Harmonic Analysis, and Free Boundary Problems, KTH"
   type: workshop
