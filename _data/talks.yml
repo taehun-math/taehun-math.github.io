@@ -37,7 +37,8 @@
 - venue: "Colloquium, Sogang University"
   type: colloquium
   location: "Seoul, Korea"
-  date: 2026-03-25
+  date: 2026-03-19
+  show_date: true
   url: "https://math.sogang.ac.kr/front/cmsboardview.do?currentPage=1&searchField=ALL&searchValue=&searchLowItem=ALL&bbsConfigFK=1948&siteId=math&pkid=933773"
 
 - venue: "Hanyang University"
