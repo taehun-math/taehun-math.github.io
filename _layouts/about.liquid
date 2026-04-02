@@ -72,6 +72,16 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Students -->
+    {% if page.students %}
+      <h2 style="margin-top: 2.5rem;">students</h2>
+      <ul>
+      {% for student in page.students %}
+        <li><strong>{{ student.name }}</strong> ({{ student.degree }}), {{ student.affiliation }}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
