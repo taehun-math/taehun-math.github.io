@@ -43,8 +43,9 @@
 
 - venue: "Hanyang University"
   type: seminar
-  location: "Seoul, Korea"
-  date: 2026-02-15
+  location: "Department of Mathematics Education, Seoul, Korea"
+  date: 2026-02-26
+  show_date: true
 
 # 2025
 - venue: "Seminar on Regularity in Elliptic and Parabolic Problems (REPP)"
