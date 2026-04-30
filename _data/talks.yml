@@ -20,6 +20,7 @@
   location: "Stockholm, Sweden"
   date: 2026-08-17
   show_date: true
+  url: "https://sites.google.com/view/eriklindgren/home/workshop-on-nonlinear-pdes-harmonic-analysis-and-free-boundary-problems"
 
 - venue: "The 15th AIMS Conference"
   type: conference
