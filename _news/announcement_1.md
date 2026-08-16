@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-**Best Teacher Award** 건국대학교 2025년 베스트티처상을 받았습니다. 
-[신문기사](https://popkon.konkuk.ac.kr/news/articleView.html?idxno=22574) · [유튜브](https://www.youtube.com/watch?v=QMI8LBDKM24)
+**Best Teacher Award** I received the 2025 Best Teacher Award from Konkuk University.
+[News article](https://popkon.konkuk.ac.kr/news/articleView.html?idxno=22574) · [YouTube](https://www.youtube.com/watch?v=QMI8LBDKM24)

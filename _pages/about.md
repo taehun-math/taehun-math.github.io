@@ -19,7 +19,7 @@ selected_papers: true
 social: true
 
 students:
-  - name: 고범석
+  - name: BeomSeok Goh
     degree: M.S.
     affiliation: Konkuk University
 

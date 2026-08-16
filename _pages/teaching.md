@@ -48,7 +48,23 @@ nav_order: 4
 
   <div class="tl-sem">
     <div class="tl-dot now"></div>
-    <div class="tl-sem-label">Spring 2026 <span class="tl-inst">Konkuk University</span> <span class="tl-now-tag">current</span></div>
+    <div class="tl-sem-label">Fall 2026 <span class="tl-inst">Konkuk University</span> <span class="tl-now-tag">current</span></div>
+    <div class="tl-cards">
+      <div class="tl-card">
+        <span class="tl-badge b-ugrad">Undergraduate</span>
+        <div class="tl-cname">Introduction to Analysis 2</div>
+      </div>
+      <div class="tl-card">
+        <span class="tl-badge b-ugrad">Undergraduate</span>
+        <div class="tl-cname">Differential Geometry 2</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="tl-sem">
+    <div class="tl-dot"></div>
+    <div class="tl-sem-label">Spring 2026 <span class="tl-inst">Konkuk University</span></div>
     <div class="tl-cards">
       <div class="tl-card">
         <span class="tl-badge b-ugrad">Undergraduate</span>
