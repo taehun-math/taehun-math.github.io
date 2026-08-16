@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-colloquium",
           title: "colloquium",
-          description: "건국대학교 수리과학연구소 콜로퀴움",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/colloquium/";
@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-best-teacher-award-건국대학교-2025년-베스트티처상을-받았습니다-신문기사-유튜브",
-          title: 'Best Teacher Award 건국대학교 2025년 베스트티처상을 받았습니다.  신문기사 · 유튜브',
+            },},{id: "news-best-teacher-award-i-received-the-2025-best-teacher-award-from-konkuk-university-news-article-youtube",
+          title: 'Best Teacher Award I received the 2025 Best Teacher Award from Konkuk University....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
