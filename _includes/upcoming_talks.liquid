@@ -76,7 +76,7 @@
 
   {% assign name = item.venue | default: item.title %}
 
-  <div class="up-item">
+  <div class="up-item" data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <span class="up-badge {{ bc }}">{{ bl }}</span>
     <div>
       <div class="up-venue">{% if item.url %}<a href="{{ item.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}</div>
@@ -88,3 +88,25 @@
 {% endfor %}
 </div>
 {% endif %}
+
+<script>
+  // The list above is filtered at build time, but the site is only rebuilt on push.
+  // Hide events that have passed since the last build, and hide the whole section if nothing is left.
+  (function () {
+    var d = new Date();
+    var today = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    var items = document.querySelectorAll(".up-item[data-date]");
+    var visible = 0;
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].getAttribute("data-date") < today) {
+        items[i].style.display = "none";
+      } else {
+        visible++;
+      }
+    }
+    if (visible === 0) {
+      var section = document.getElementById("upcoming-events");
+      if (section) section.style.display = "none";
+    }
+  })();
+</script>
