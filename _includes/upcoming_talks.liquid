@@ -2,14 +2,16 @@
 {% assign upcoming = "" | split: "" %}
 
 {% for talk in site.data.talks %}
-  {% assign talk_s = talk.date | date: "%s" | plus: 0 %}
+  {% assign talk_end = talk.end_date | default: talk.date %}
+  {% assign talk_s = talk_end | date: "%s" | plus: 0 %}
   {% if talk_s >= today_s %}
     {% assign upcoming = upcoming | push: talk %}
   {% endif %}
 {% endfor %}
 
 {% for lecture in site.data.series_lectures %}
-  {% assign lec_s = lecture.date | date: "%s" | plus: 0 %}
+  {% assign lec_end = lecture.end_date | default: lecture.date %}
+  {% assign lec_s = lec_end | date: "%s" | plus: 0 %}
   {% if lec_s >= today_s %}
     {% assign item = lecture | default: lecture %}
     {% assign upcoming = upcoming | push: lecture %}
@@ -17,7 +19,8 @@
 {% endfor %}
 
 {% for org in site.data.organization %}
-  {% assign org_s = org.date | date: "%s" | plus: 0 %}
+  {% assign org_end = org.end_date | default: org.date %}
+  {% assign org_s = org_end | date: "%s" | plus: 0 %}
   {% if org_s >= today_s %}
     {% assign upcoming = upcoming | push: org %}
   {% endif %}
@@ -76,11 +79,12 @@
 
   {% assign name = item.venue | default: item.title %}
 
-  <div class="up-item" data-date="{{ item.date | date: '%Y-%m-%d' }}">
+  {% assign item_end = item.end_date | default: item.date %}
+  <div class="up-item" data-date="{{ item_end | date: '%Y-%m-%d' }}">
     <span class="up-badge {{ bc }}">{{ bl }}</span>
     <div>
       <div class="up-venue">{% if item.url %}<a href="{{ item.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}</div>
-      <div class="up-loc">{{ item.location }} · {% if item.show_date %}{{ item.date | date: "%b %d, %Y" }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</div>
+      <div class="up-loc">{{ item.location }} · {% if item.end_date %}{{ item.date | date: "%b %d" }}–{{ item.end_date | date: "%d, %Y" }}{% elsif item.show_date %}{{ item.date | date: "%b %d, %Y" }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</div>
     </div>
   </div>
 
@@ -91,7 +95,8 @@
 
 <script>
   // The list above is filtered at build time, but the site is only rebuilt on push.
-  // Hide events that have passed since the last build, and hide the whole section if nothing is left.
+  // Hide events that have passed since the last build (data-date is the end date for multi-day events),
+  // and hide the whole section if nothing is left.
   (function () {
     var d = new Date();
     var today = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
